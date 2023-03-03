@@ -19,6 +19,11 @@ Build a responsive page based on the designs.
 * Mobile banner - https://via.placeholder.com/600x600
 * Content images - https://via.placeholder.com/400x300
 
+--- How to run:
+1. Go to exercise directory -> cd exercise
+2. Install dependencies -> yarn install
+3. Run application -> yarn start
+
 Exercise 2
 ---
 Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
@@ -30,10 +35,16 @@ Read the `data.json` file and display the data as tabs on desktop and an accordi
 4. Open the first accordion/tab on load.
 5. If the open accordion is selected, close it.
 
+--- How to run:
+1. Go to exercise2 directory -> cd exercise2
+2. Install dependencies -> yarn install
+3. Run application -> yarn start
+
 ###### Bonus points
 * Improve the user experience with meaningful animations/transitions.
 * Design and styling.
 * Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
+    -> Using an increment operator on a char type variable (`++'a'`) will result in an error (`NaN`) which means that the variable is not a number. Without the toLowerCase method the result string of the command above would be `baNaNa`;
 
 Submission
 ---
